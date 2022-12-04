@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "name": "Oppo Reno ",
+      "price": "6000000",
+      "image": "http://res.cloudinary.com/anhdht/image/upload/v1670162828/rb6ejztvk2osepyycuwj.jpg",
+      "quantity": "30",
+      "description": "Hang moi ve",
+      "id": 17
+    },
+    {
+      "name": "Samsung Galaxy A03",
+      "price": "3000000",
+      "image": "http://res.cloudinary.com/anhdht/image/upload/v1670162856/apox4o2p4q5ozuqygsu7.jpg",
+      "quantity": "20",
+      "description": "Hang moi ve",
+      "id": 18
+    },
+    {
+      "name": "Samsung Galaxy A53",
+      "price": "8000000",
+      "image": "http://res.cloudinary.com/anhdht/image/upload/v1670162916/qdfzkvonmbajcrsfridg.jpg",
+      "quantity": "23",
+      "description": "Hang moi ve",
+      "id": 20
+    },
+    {
+      "name": "Iphone 14",
+      "price": "120000",
+      "image": "http://res.cloudinary.com/anhdht/image/upload/v1670162237/ohfvbofqhpxdeswomihl.jpg",
+      "quantity": "10",
+      "description": "Hang moi ve",
+      "id": 21
+    },
+    {
+      "name": "Iphone 11 vàng",
+      "price": "1200000",
+      "image": "http://res.cloudinary.com/anhdht/image/upload/v1670162581/vpha1ijvtod9twvgrneo.jpg",
+      "quantity": "3",
+      "description": "Hang moi ve",
+      "id": 22
+    },
+    {
+      "name": "Oppo Reno ",
+      "price": "6000000",
+      "image": "http://res.cloudinary.com/anhdht/image/upload/v1670162828/rb6ejztvk2osepyycuwj.jpg",
+      "quantity": "30",
+      "description": "Hang moi ve",
+      "id": 23
+    },
+    {
+      "name": "Samsung Galaxy A03",
+      "price": "3000000",
+      "image": "http://res.cloudinary.com/anhdht/image/upload/v1670162856/apox4o2p4q5ozuqygsu7.jpg",
+      "quantity": "20",
+      "description": "Hang moi ve",
+      "id": 24
+    },
+    {
+      "name": "Samsung Galaxy A53",
+      "price": "8000000",
+      "image": "http://res.cloudinary.com/anhdht/image/upload/v1670162916/qdfzkvonmbajcrsfridg.jpg",
+      "quantity": "23",
+      "description": "Hang moi ve",
+      "id": 25
+    },
+    {
+      "name": "Iphone 14",
+      "price": "120000",
+      "image": "http://res.cloudinary.com/anhdht/image/upload/v1670162237/ohfvbofqhpxdeswomihl.jpg",
+      "quantity": "10",
+      "description": "Hang moi ve",
+      "id": 26
+    }
+  ]
+}

@@ -1,0 +1,926 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.search{
+    width: 602px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    padding: 0px 12px;
+    font-size: 13px;
+    border-radius: 2px 0px 0px 2px;
+    box-sizing: border-box;
+    
+}
+.hvtimkiem:hover{
+    color: white;
+}
+.btnSearch{
+    border: 0px;
+    width: 120px;
+    padding-right: 6;
+    padding-left: 6;
+    background: rgb(13, 92, 182);
+    color: white;
+    border-radius: 0px 2px 2px 0px;
+    width: 120px;
+    height: 40px;
+    border: 0px;
+    font-size: 13px;
+    font-weight: 500;
+    outline: none;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    letter-spacing: normal;
+    font-family: inherit;
+    font-size: 95%;
+    line-height: 1.15;
+    margin: 0px;
+}
+.bgHeader{
+    background-color: rgb(26, 148, 255);
+    
+}
+
+.bd2{
+    border: 1px solid #efefef;
+    background-color: white;
+   
+}
+.bd3{
+    border: 1px solid #efefef;
+    background-color: white;
+    
+}
+.bd1{
+    border: 1px solid #efefef;
+    width: 83%;
+    margin: 0 auto;
+    background-color: white;
+    
+    
+}
+
+.container{
+    width: 83%;
+    margin: 0 auto;
+    
+}
+.sizetext{
+    font-size: 13px;
+    line-height: 30px;
+    
+}
+.sizeH{
+    font-weight: bolder;
+    font-size: 13px;
+    border-top: 2px solid rgb(247, 247, 247);
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.sizeH1{
+    padding: 11px 0px 11px 15px;
+    font-size: 22px;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+}
+.diachi{
+    text-decoration: underline;
+    font-weight: bolder
+}
+ .filter-items {
+    border-top: 2px solid rgb(247, 247, 247);
+    padding-left: 16px;
+    display: flex;
+    padding-bottom: 25px;
+    padding-top: 20px;
+}
+ .filter-items .item.sticky {
+    background: rgb(238, 238, 238);
+    cursor: pointer;
+}
+ .filter-items .item {
+    background: rgba(27, 168, 255, 0.1);
+    font-size: 13px;
+    padding: 2px 12px;
+    line-height: 20px;
+    position: relative;
+    border-radius: 100px;
+    display: flex;
+    margin-right: 10px;
+    height: 24px;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+
+
+
+.filter-items1 {
+   
+    padding-left: 16px;
+    display: flex;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+ .filter-items1 .item.sticky {
+    background: rgb(238, 238, 238);
+    cursor: pointer;
+}
+ .filter-items1 .item {
+    background: rgba(27, 168, 255, 0.1);
+    font-size: 13px;
+    padding: 2px 12px;
+    line-height: 20px;
+    position: relative;
+    border-radius: 100px;
+    display: flex;
+    margin-right: 10px;
+    height: 24px;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.timgia{
+    border: 1px solid rgb(159, 156, 156);
+    padding-left: 8px;
+    width: 110px;
+    border-radius: 5px;
+    
+}
+.apdung{
+    border: 1px solid rgb(13, 92, 182); 
+    padding: 0px 23px;
+    border-radius: 4px;
+    color: rgb(13, 92, 182);
+    font-size: 12px;
+    
+}
+
+.qcsp1{
+    margin-left: -12px;
+}
+
+.soluongtrang{
+    width: 110%;
+    height: 60px;
+    border: 0px;
+    background-color: #efefef;
+}
+
+.canLe{
+    background-color: #efefef;
+}
+
+.icon-arrow-back {
+    background-image: url(../img/sprite.png?v=100000000);
+    background-position: -392px -189px;
+    width: 8px;
+    height: 14px;
+}
+
+.hoversltrang{
+    padding: 10px;
+    font-size: 12px;
+    cursor: pointer;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.hoversltrang:hover{
+    
+    color: white;
+    border: 0px;
+    background-color: rgb(11, 116, 229);;
+    border-radius: 50%;
+    
+}
+.hoversltrang-section{
+    color: white;
+    border: 0px;
+    background-color: rgb(11, 116, 229);;
+    border-radius: 50%;;
+}
+
+.hoversltrang-section{
+    padding: 10px;
+    font-size: 12px;
+    cursor: pointer;
+  padding-right: 10px;
+  padding-left: 10px;
+  
+}
+.hoversltrang-section:hover{
+    padding: 10px;
+    font-size: 12px;
+    cursor: pointer;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: white;
+  
+}
+
+.sanphamduocxem{
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 150px;
+}
+
+.khoangtrang{
+    width: 100%;
+    height: 20px;
+    border: 0px;
+    background-color: #efefef;
+}
+
+.duongdan{
+    width: 83%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.duongdantext{
+    color: rgb(120, 120, 120);
+    font-size: 15px;
+    
+}
+
+.logoa{
+    margin-top: -20px;
+    margin-left: -30px;
+}
+
+.logos{
+    width: 25%;
+    
+}
+
+.logoshoping{
+    width: 100%;
+    height: 44px;
+    margin-left: 4px;
+    
+}
+
+.dndk{
+    font-size: 13px;
+    width: 180px;
+    margin-top: -44px;
+    margin-left: 15px;
+}
+
+.dndk1{
+    font-size: 13px;
+    width: 220px;
+    margin-left: -25px;
+
+    
+}
+
+.logouser{
+    width: 20%;
+    height: 44px;
+}
+
+.anhsach{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    height: 250px;
+}
+.tieudesach{
+    padding-left: 10px;
+    padding-right: 24px;
+    padding-top: 4px;
+}
+.giasach{
+    color: red;
+    font-size: 16px;
+    padding-left: 10px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+.sachdaban{
+    margin-top: -7px;
+    color: rgb(120, 120, 120);
+}
+.giasalesach{
+    border: 1px solid rgb(255, 66, 78);
+    width: 35px;
+    height: 20px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 11px;
+    margin-top: -25px;
+    background-color: rgb(255, 240, 241);
+    padding: 0px 2px;
+    color: rgb(255, 66, 78);
+    float: right;
+    margin-right: 85px;
+    margin-top: -46px;
+}
+.chusale{
+    margin-top: -5px;
+}
+.logosale{
+    margin-top: -22px;
+    padding-left: 10px;
+}
+
+.logosale1{
+    margin-top: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.anhsachchitiet{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+.motasachngan{
+    padding-top: 20px;
+    font-size: 13px;
+    line-height: 20px;
+    padding-left: 10px;
+   
+}
+.tieudesachchitiet{
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0px 0px 4px;
+    color: rgb(36, 36, 36);
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+    word-break: break-word;
+    padding-left: 10px;
+    
+}
+
+.chitietsanpham{
+    line-height: 35px;
+    
+}
+
+
+
+.banggiatien{
+    border: 0px;
+    width: 500px;
+    height: 140px;
+    border-radius: 4px;
+    background-color: rgb(250, 250, 250);
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+
+.giasachchitiet{
+    color: rgb(255, 66, 78);
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+.giasalechitiet{
+    text-decoration: line-through;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.phantramsalechitiet{
+    border: 1px solid rgb(255, 66, 78);
+    width: 40px;
+    height: 30px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 14px;
+    background-color: rgb(255, 240, 241);
+    color: rgb(255, 66, 78);
+    float: right;
+    margin-top: 8px;
+    
+}
+
+.khoangcach{
+    border-bottom: 2px solid rgb(236, 235, 235);
+}
+
+.chiale{
+    border-left: 2px solid rgb(236, 235, 235);
+}
+
+.thuongchitiet{
+    width: 320px;
+    height: 30px;
+    text-align: center;
+    border: 0.5px solid rgb(198, 188, 248);
+    background-color: rgb(242, 240, 254);
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+.thuonghieu{
+    position: absolute;
+    margin-top: -305px;
+}
+.thuongchitiettext{
+    padding-top: 5px;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgb(64, 45, 161);
+    font-weight: bolder;
+
+}
+
+.salegiamgia{
+    padding-left: 10px;
+}
+
+.giamgia{
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(36, 36, 36);
+    cursor: pointer;
+}
+
+.phieugiamgia{
+    cursor: pointer;
+    padding: 3px 7px;
+    border: 1px solid rgb(13, 92, 182);
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgb(13, 92, 182);
+    margin: 0px 12px 0px 0px;
+}
+
+.nextphieugiamgia{
+    color: rgb(13, 92, 182);
+    font-size: 23px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.gachchan{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.diachichitiet{
+    padding-left: 10px;
+}
+
+.doidiachichitiet{
+    color: rgb(11, 116, 229);
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+
+
+.anhsach1{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 20px;
+    height: 170px;
+    width: 100%;
+}
+.tieudesach1{
+    padding-left: 10px;
+    padding-right: 24px;
+    padding-top: 4px;
+    font-size: 13px;
+}
+.giasach1{
+    color: red;
+    font-size: 16px;
+    padding-left: 10px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+.sachdaban1{
+    margin-top: -2px;
+    color: rgb(120, 120, 120);
+    font-size: 12px;
+}
+.giasalesach1{
+    border: 1px solid rgb(255, 66, 78);
+    width: 35px;
+    height: 16px;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 11px;
+    margin-top: -25px;
+    background-color: rgb(255, 240, 241);
+    padding: 0px 2px;
+    color: rgb(255, 66, 78);
+    float: right;
+    margin-right: 80px;
+    margin-top: -41px;
+}
+.chusale1{
+    margin-top: 0px;
+}
+
+.sizeH2{
+    padding: 11px 0px 11px 15px;
+    font-size: 20px;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+}
+
+.bdsp{
+    border: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 880px;
+}
+
+.bd1sp{
+    
+    width: 100%;
+    background-color: #efefef;
+}
+
+.motasp{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    font-size: 14px;
+}
+.logosale2{
+    margin-top: -20px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.bdft1{
+    border: 0px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+
+}
+
+.bdft2{
+    border: 0px;
+    background-color: white;
+    width: 83%;
+    margin: 0 auto;
+    border-bottom: 2px solid #eae4e4;
+    
+}
+
+.bdft3{
+    border: 0px;
+    background-color: white;
+    width: 83%;
+    margin: 0 auto;
+
+    
+}
+
+.textft{
+    color: rgb(128, 128, 137);
+    font-size: 12px;
+    line-height: 25px;
+}
+.textft:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.textslsp{
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.soluongsp{
+    border: 1px solid #eae4e4;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+}
+
+.btnsl{
+    border: 1px solid #eae4e4;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+.btnsl1{
+    border: 1px solid #eae4e4;
+    width: 350px;
+    height: 53px;
+    text-align: center;
+    background-color: rgb(255, 57, 69);
+    color: white;
+    border-radius: 5px;
+}
+.canlebtn{
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.btnsl1:hover{
+    opacity: 90%;
+}
+
+.btnsl:hover{
+    background-color: rgb(238, 238, 238);
+}
+
+
+.bangquantri{
+background-color:#ffffff;
+}
+
+.canlead1{
+    border: 1px solid rgb(163, 161, 161);
+    text-align: center;
+    padding: 15px;
+}
+
+.canlead2{
+    border: 1px solid rgb(163, 161, 161);
+    padding: 15px;
+}
+.sttad{
+    text-align: center;
+}
+
+.namead{
+    width: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.tieudead{
+    font-size: 21px;
+    color: rgb(106, 106, 106);
+    font-weight: bolder;
+}
+
+.anhad{
+    height: 220px;
+}
+
+.dmsp{
+ 
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 600px) {
+    
+
+    .bg{
+        background-color: #efefef;
+    }
+    .tieuDe{
+        font-size: 17px;
+        font-weight: lighter;
+        padding-right: 10px;
+    }
+    .tieuDe1{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .danhmuc{
+        float: left;
+        width: 210px;
+        height: 100;
+        border-radius: 5px;
+        background-color: white;
+        padding: 15px;
+    }
+    .danhMucCon{
+        text-decoration: none;
+        font-size: 14px;
+        color: black;
+        font-weight: 400;
+        
+    }
+    .danhMucCon:hover{
+        color: rgb(26, 148, 255);
+    }
+    .danhMucCon1{
+        line-height: 40px;
+    }
+    .listProduct{
+        
+        height: 460px;
+        background-color: white;
+    }
+    .cot{
+        display: grid;
+        grid-template-columns: 220px 1060px;
+        padding-bottom: 30px;
+    
+    }
+    h4{
+        font-size: 35px;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    h6{
+        font-weight: bolder;
+    }
+    .noiDung{
+        
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+    .chuNoiDung {
+    color: black;
+    text-decoration: none;
+    margin-left: 30px;
+    
+    }
+    .chuNoiDung:hover{
+       color: rgb(26, 148, 255);
+       border-bottom: 1px solid rgb(26, 148, 255);
+       border-width: 3px;
+       
+    }
+    .voucher{
+    
+        padding: 5px;
+        background-color: #efefef;;
+        border-radius: 13px;
+       
+    }
+    .voucher1{
+        padding-left: 20px;
+        display: grid;
+        grid-template-columns: 70px 70px;
+        gap: 10px;
+    }
+    .noidungSP{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 10px;
+       padding-top: 10px;
+    
+    }
+    .sanPham{
+        width: 100px;
+        text-decoration: none;
+        color: black;
+        
+        
+    }   
+    
+    .sanpham{
+        background-color: white;
+        border-radius: 4px;
+    }
+    
+    .tensp{
+        padding-top: 8px;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 14px;
+        font-weight: 600;
+        width: 200px;
+        white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0px;
+    }
+    .danhgia{
+        font-size: 14px;
+        font-weight: 300;
+        color: #a4a4a4;
+        margin-top: -90px;
+        padding-right: 10px;
+        padding-left: 10px;
+        
+    }
+    .gia{
+       
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 17px;
+        color: red;
+        margin: 0;
+        font-weight: 700;
+    }
+    .daBan{
+        font-size: 13px;
+        padding-left: 10px;
+    }
+    
+    .tangqua{
+        font-size: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 3px;
+    }
+    .ship{
+        font-size: 11px;
+        border: 1px solid rgb(41, 165, 248);
+        padding: 1px;
+        color: rgb(41, 165, 248);
+        border-radius: 3px;
+        width: 55px;
+        text-align: center;
+        height: 18px;
+        
+    }
+    
+    .Ship{
+        padding-right: 10px;
+        padding-left: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 5px;
+        padding-top: 3px;
+        
+    }
+    .vanchuyen{
+        font-size: 13px;
+        padding-left: 5px;
+       
+    }
+    .vanChuyen{
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 5px;
+        margin: 1px;
+        display: flex;
+        padding-top: 5px;
+    }
+    
+    .sanpham:hover{
+        box-shadow: 5px 2px 2px 5px #e9e9e9
+        
+    }
+    
+    .sizeH{
+        font-weight: bolder;
+        font-size: 13px;
+        border-top: 2px solid rgb(247, 247, 247);
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+    .diachi{
+        text-decoration: underline;
+        font-weight: bolder
+    }
+    .noidungdanhmuc{
+        text-decoration: none;
+        font-size: 13px;
+        color: black;
+        
+    }
+    .noidungdanhmuc1{
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: bolder;
+    }
+    .noidungdanhmuc:hover{
+        color:  rgb(26, 148, 255);
+        
+    }
+    .banner{
+        width: 100%; height: 336px; object-fit: cover
+    }
+    }
+    
+    
+    
+    
+    
+    
